@@ -1,6 +1,6 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
-import streamlit
+import streamlit as st
 
 bot=ChatBot('Robo')
 trainer=ChatterBotCorpusTrainer(bot)
