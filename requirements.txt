@@ -1,2 +1,2 @@
 streamlit
-chatterbot
+chatterbot==1.0.4
