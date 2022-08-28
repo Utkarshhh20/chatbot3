@@ -9,6 +9,8 @@ def get_bot_response():
     userText=st.text_input('Please enter your message')
     if userText!='':
         return str(bot.get_response(userText))
+    else:
+        pass
 while True:
     bot_resp=get_bot_response()
     st.write(bot_resp)
